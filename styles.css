@@ -921,17 +921,17 @@ footer {
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 1.3;
     }
 
     h3 {
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 1.4;
     }
 
     h4 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1.4;
     }
 
@@ -974,11 +974,14 @@ footer {
     }
 
     .pricing-name {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .pricing-price {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+    }
+    .pricing-features{
+        font-size: 0.9rem;
     }
 
     /* Testemunhos */
