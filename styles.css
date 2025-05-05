@@ -951,7 +951,7 @@ footer {
     }
 
     .btn {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 0.9rem 1.6rem;
     }
 
@@ -978,11 +978,11 @@ footer {
     }
 
     .pricing-name {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .pricing-price {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .pricing-features{
         font-size: 0.9rem;
@@ -992,6 +992,21 @@ footer {
         font-size: 1.2rem;
     }
 
+.features-list{
+    font-size: 0.9rem;
+}
+
+.module{
+    font-size: 0.9rem;
+}
+
+.instructor-info h2{
+    font-size: 1.7rem;
+}
+
+.instructor-info p{
+    font-size: 1rem;
+}
     /* Testemunhos */
     .testimonial-quote {
         font-size: 1rem;
@@ -1015,6 +1030,9 @@ footer {
         font-size: 1.5rem;
     }
     .cta p{
+        font-size: 1rem;
+    }
+    .contact-info{
         font-size: 1rem;
     }
 }
