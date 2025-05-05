@@ -883,206 +883,55 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .nav-links {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        height: 100vh;
-        background-color: var(--darker);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: right 0.5s ease;
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        right: 0;
-        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
-    }
-
-    .menu-btn {
-        display: block;
-        z-index: 1001;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .section-title {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
+/* Estilos apenas para telas menores (mobile) */
+@media (max-width: 768px) {
     body {
-        font-size: 14px;
-        line-height: 1.6;
+        font-size: 0.9rem;
     }
 
     h1 {
-        font-size: 1.6rem;
-        line-height: 1.3;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.3rem;
-        line-height: 1.3;
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 1.1rem;
-        line-height: 1.4;
+        font-size: 1.3rem;
     }
 
-    h4 {
+    .hero h1 {
         font-size: 1rem;
-        line-height: 1.4;
     }
 
-    h5 {
-        font-size: 0.95rem;
-        line-height: 1.4;
-    }
-
-    h6 {
-        font-size: 0.9rem;
-        line-height: 1.4;
-    }
-
-    p {
-        font-size: 1.1rem;
-        line-height: 1.6;
+    .hero p {
+        font-size: 1rem;
     }
 
     .btn {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .benefit-title {
         font-size: 1.2rem;
-        padding: 0.9rem 1.8rem;
     }
 
-    .section-title {
-        font-size: 1.8rem;
-    }
-
-    .pricing-name {
-        font-size: 1.3rem;
-    }
-
-    .pricing-price {
-        font-size: 1.6rem;
-    }
-
-    /* Testimonials adjustments */
-.testimonial-quote {
-        font-size: 20rem;
-    }
-
-    .testimonial-info h4 {
-        font-size: 1rem;
-    }
-
-    .testimonial-info p {
+    .benefit-text {
         font-size: 0.9rem;
     }
 
-    /* Increase font size for modules title on mobile */
-    .modules-title {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 13px;
-        line-height: 1.5;
-    }
-
-    h1 {
+    .modules-title,
+    .plan-features h3 {
         font-size: 1.4rem;
-        line-height: 1.2;
     }
 
-    h2 {
-        font-size: 1.1rem;
-        line-height: 1.2;
-    }
-
-    h3 {
-        font-size: 1rem;
-        line-height: 1.3;
-    }
-
-    h4 {
+    .features-list li {
         font-size: 0.9rem;
-        line-height: 1.3;
     }
 
-    h5 {
-        font-size: 0.85rem;
-        line-height: 1.3;
+    .module {
+        font-size: 0.95rem;
     }
-
-    h6 {
-        font-size: 0.8rem;
-        line-height: 1.3;
-    }
-
-    p {
-        font-size: 1.1rem;
-        line-height: 1.4;
-    }
-
-    .btn {
-        font-size: 1.1rem;
-        padding: 0.9rem 1.6rem;
-    }
-
-    .section-title {
-        font-size: 1.4rem;
-    }
-
-    .pricing-name {
-        font-size: 1.1rem;
-    }
-
-    .pricing-price {
-        font-size: 1.3rem;
-    }
-    .testimonial-quote {
-        font-size: 0.8rem;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-
-    .benefit-card {
-        padding: 1.5rem;
-    }
-
-    .pricing-card {
-        padding: 1.5rem;
-    }
-
-    .pricing-name {
-        font-size: 1.5rem;
-    }
-
-    .pricing-price {
-        font-size: 2rem;
-    }
-
-    .testimonial-quote {
-        font-size: 1.8rem;
-    }
-}
-
-/* New class for justified text */
-.text-justify {
-    text-align: justify;
 }
