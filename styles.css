@@ -981,9 +981,6 @@ footer {
     }
 
     .testimonial-info p {
-        font-size: 0.8rem;
-    }
-}
 
 @media screen and (max-width: 480px) {
     body {
