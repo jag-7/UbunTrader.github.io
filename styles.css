@@ -974,6 +974,15 @@ footer {
     .pricing-price {
         font-size: 1.5rem;
     }
+
+    /* Testimonials adjustments */
+    .testimonial-quote {
+        font-size: 1rem;
+    }
+
+    .testimonial-info p {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
