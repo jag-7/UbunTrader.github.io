@@ -964,8 +964,12 @@ footer {
     }
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
+    hero p {
+        font-size: 1.3rem;
+    }
+
 
     /* Cartões e componentes */
     .benefit-card,
@@ -982,6 +986,10 @@ footer {
     }
     .pricing-features{
         font-size: 0.9rem;
+    }
+
+    .benefits h2 {
+        font-size: 1.4rem;
     }
 
     /* Testemunhos */
