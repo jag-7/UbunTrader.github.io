@@ -976,8 +976,8 @@ footer {
     }
 
     /* Testimonials adjustments */
-    .testimonial-quote {
-        font-size: 1.2rem;
+.testimonial-quote {
+        font-size: 0.12rem;
     }
 
     .testimonial-info h4 {
@@ -1050,6 +1050,9 @@ footer {
 
     .pricing-price {
         font-size: 1.3rem;
+    }
+    .testimonial-quote {
+        font-size: 0.8rem;
     }
 }
 
