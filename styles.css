@@ -919,121 +919,133 @@ footer {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 12px;
-        line-height: 1.4;
+        font-size: 14px;
+        line-height: 1.6;
     }
 
     h1 {
-        font-size: 1.3rem;
-        line-height: 1.2;
+        font-size: 1.6rem;
+        line-height: 1.3;
     }
 
     h2 {
-        font-size: 1.1rem;
-        line-height: 1.2;
+        font-size: 1.3rem;
+        line-height: 1.3;
     }
 
     h3 {
-        font-size: 1rem;
-        line-height: 1.2;
+        font-size: 1.1rem;
+        line-height: 1.4;
     }
 
     h4 {
-        font-size: 0.9rem;
-        line-height: 1.2;
+        font-size: 1rem;
+        line-height: 1.4;
     }
 
     h5 {
-        font-size: 0.85rem;
-        line-height: 1.2;
+        font-size: 0.95rem;
+        line-height: 1.4;
     }
 
     h6 {
-        font-size: 0.75rem;
-        line-height: 1.2;
-    }
-
-    p {
         font-size: 0.9rem;
         line-height: 1.4;
     }
 
+    p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
     .btn {
-        font-size: 0.9rem;
-        padding: 0.6rem 1.2rem;
+        font-size: 1.2rem;
+        padding: 0.9rem 1.8rem;
     }
 
     .section-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .pricing-name {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .pricing-price {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     /* Testimonials adjustments */
     .testimonial-quote {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-info h4 {
         font-size: 1rem;
     }
 
     .testimonial-info p {
+        font-size: 0.9rem;
+    }
+
+    /* Increase font size for modules title on mobile */
+    .modules-title {
+        font-size: 2rem;
+    }
+}
 
 @media screen and (max-width: 480px) {
     body {
-        font-size: 11px;
-        line-height: 1.3;
+        font-size: 13px;
+        line-height: 1.5;
     }
 
     h1 {
-        font-size: 1.1rem;
-        line-height: 1.1;
+        font-size: 1.4rem;
+        line-height: 1.2;
     }
 
     h2 {
-        font-size: 1rem;
-        line-height: 1.1;
+        font-size: 1.1rem;
+        line-height: 1.2;
     }
 
     h3 {
-        font-size: 0.9rem;
-        line-height: 1.1;
+        font-size: 1rem;
+        line-height: 1.3;
     }
 
     h4 {
-        font-size: 0.8rem;
-        line-height: 1.1;
+        font-size: 0.9rem;
+        line-height: 1.3;
     }
 
     h5 {
-        font-size: 0.75rem;
-        line-height: 1.1;
+        font-size: 0.85rem;
+        line-height: 1.3;
     }
 
     h6 {
-        font-size: 0.7rem;
-        line-height: 1.1;
-    }
-
-    p {
         font-size: 0.8rem;
         line-height: 1.3;
     }
 
+    p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
     .btn {
-        font-size: 0.8rem;
-        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        padding: 0.9rem 1.6rem;
     }
 
     .section-title {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .pricing-name {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .pricing-price {
