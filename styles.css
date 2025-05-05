@@ -989,11 +989,17 @@ footer {
     }
 
     .benefits h2 {
+        font-size: 1.6rem;
+    }
+    .benefits h3 {
         font-size: 1.2rem;
+    }
+    .benefits p {
+        font-size: 1rem;
     }
 
 .features-list{
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 .module{
